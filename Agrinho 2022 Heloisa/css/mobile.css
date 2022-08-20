@@ -1,0 +1,75 @@
+@media (max-width: 850px) {
+
+    html {
+        font-size: 12px;
+    }
+
+    .estacao {
+        height: 250px;
+
+    }
+
+    .estacao-border-imagem {
+        border-top-width: 250px;
+    }
+}
+
+@media (max-width: 650px) {
+
+    .estacao {
+        height: 220px;
+        background-image: url("../img/estacao.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .estacao-imagem-container {
+        display: none;
+    }
+
+    .navbar-menu-link {
+        margin-right: .4em;
+    }
+
+    .navbar-menu-link:last-of-type {
+        margin-left: .2em;
+    }
+
+    .inauguracao-projeto {
+        grid-template-columns: 1fr;
+    }
+
+    .projeto-imagem-container {
+        padding: 0 20%;
+    }
+
+    .sobre-galeria {
+        grid-template-columns: 1fr;
+    }
+
+    .galeria-sobre:nth-of-type(1n+3) {
+        display: none;
+    }
+}
+
+@media (max-width: 550px) {
+
+    html {
+        font-size: 10px;
+    }
+
+    .estacao {
+        height: 200px;
+    }
+}
+
+@media (max-width: 425px) {
+
+    html {
+        font-size: 8px;
+    }
+
+    .estacao {
+        height: 150px;
+    }
+}
